@@ -1,0 +1,126 @@
+/* General */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  h1 {
+    color: #007bff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  h3, h4 {
+    color: #343a40;
+  }
+  
+  /* Cards de productos */
+  .card {
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  /* Botones */
+  button {
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+  button:hover {
+    transform: translateY(-2px);
+  }
+  
+  button:disabled {
+    background-color: #ccc !important;
+    cursor: not-allowed;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #0056b3;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #c82333;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #218838;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border-color: #e0a800;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Carrito */
+  .list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .float-right {
+    float: right !important;
+  }
+  
+  /* Métodos de pago */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  form select {
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    padding: 20px;
+  }
+  
+  .row {
+    margin-top: 20px;
+  }
+  
+  .mt-3 {
+    margin-top: 1rem !important;
+  }
+  
+  .ml-2 {
+    margin-left: 0.5rem !important;
+  }
+  
